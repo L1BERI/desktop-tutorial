@@ -1,0 +1,55 @@
+:root{
+    /* text color */
+    --text-primary:#023047;
+    --text-secondary: #678391;
+    --text-disabled: #F5F5F5;
+
+    /* main colors */
+        /* red */
+        --color-red:#E76F51;
+        --color-red-dark:#C25D44;
+        --color-red-light:#EB866D;
+        --color-red-60:#F1A997;
+        --color-red-16:#FBE8E3;
+        --color-red-8:#FDF3F1;
+        
+        /* blue */
+        --color-blue: #8ECAE6;
+        --color-blue-dark: #77AAC1;
+        --color-blue-light: #A0D2EA;
+        --color-blue-60: #BBDFF0;
+        --color-blue-16: #EDF7FB;
+        --color-blue-8: #F6FBFD;
+
+        /* ocean */
+        --color-ocean: #2A9D8F;
+        --color-ocean-dark: #238478;
+        --color-ocean-light: #4CADA1;
+        --color-ocean-60: #7FC4BC;
+        --color-ocean-16: #DDEFED;
+        --color-ocean-8: #EEF7F6;
+
+        /* night */
+        --color-night: #264653;
+        --color-nigh-dark: #203B46;
+        --color-night-light: #49646F;
+        --color-night-60: #7D9098;
+        --color-night-16: #DCE1E3;
+        --color-night-8: #EEF0F1;
+
+        /* dark-black */
+        --color-grey-9: #151517;
+        --color-grey-8: #414144;
+        --color-grey-7: #707072;
+        --color-grey-6: #888888;
+        --color-grey-5: #9F9F9F;
+        --color-grey-4: #B6B6B6;
+        --color-grey-3: #CCCCCC;
+        --color-grey-2: #E3E3E3;
+        --color-grey-1: #F5F5F5;
+
+        /* white */
+        --color-white: #FFFFFF;
+        
+
+}
