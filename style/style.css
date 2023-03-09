@@ -356,9 +356,6 @@ button {
 .sticky-menu__item:first-child {
   color: var(--color-red);
 }
-.sticky-menu__item:nth-child(3) {
-  color: var(--color-red);
-}
 .sticky-menu__item:hover {
   color: var(--color-red);
 }
@@ -382,7 +379,7 @@ button {
   color: var(--color-red);
   transition: all 0.3s;
 }
-.header__menu-list .header__menu-item:nth-child(2) {
+.header__menu-list .header__menu-item:nth-child(1) {
   color: var(--color-red);
 }
 .header__menu-list .header__menu-item:not(:last-child) {
@@ -787,6 +784,9 @@ button {
 .footer__menu-item {
   color: var(--color-white);
 }
+.footer__menu-item:first-child {
+  color: var(--text-primary);
+}
 .footer__menu-item:hover {
   color: var(--text-primary);
 }
@@ -868,6 +868,7 @@ button {
     right: 42px;
     top: 49px;
     z-index: 1000;
+    cursor: pointer;
   }
   .burger span {
     width: 18px;
@@ -896,7 +897,7 @@ button {
     display: none;
   }
   .sticky-logo {
-    width: 100%;
+    width: auto;
   }
   .header__inner {
     display: flex;
@@ -1044,6 +1045,12 @@ button {
   }
   .heating__image {
     margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .heating__image img {
+    width: 100%;
+    height: 100%;
   }
   .heating__content {
     margin: 0 auto;
@@ -1083,7 +1090,7 @@ button {
 }
 @media screen and (max-width: 480px) {
   html {
-    font-size: 12.8px;
+    font-size: 12.2px;
   }
   .services__card-list {
     flex-direction: column;

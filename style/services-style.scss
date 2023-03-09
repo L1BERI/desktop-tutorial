@@ -1,4 +1,24 @@
-
+.header__menu-list {
+    .header__menu-item:hover {
+        color: var(--color-red);
+        transition: all .3s;
+    }
+    .header__menu-item:first-child{
+        color: var(--color-night);
+        &:hover{
+            color: var(--color-red);
+            transition: all .3s;
+        }
+    }
+    .header__menu-item:nth-child(2) {
+        color: var(--color-red);
+    }
+}
+.sticky-menu__item {
+    &:nth-child(3) {
+        color: var(--color-red);
+    }
+}
 .services-hero__inner{
     width: 100%;
     height: 100%;
@@ -27,6 +47,7 @@
 }
 
 .refrig__content-item {
+    max-width: 888px;
     &:first-child {
         margin-bottom: 16px;
         color: var(--color-ocean);
@@ -45,9 +66,29 @@
     .refrig__content-text {
         color: var(--text-secondary);
         margin-bottom: 32px;
+        
     }
 }
+.footer__menu-item {
+    color: var(--color-white);
+    &:first-child{
+        color: var(--color-white);
+        &:hover{
+            color: var(--text-primary);
+            transition: all .3s;
+        }
+    }
+    &:nth-child(2){
+        color: var(--text-primary);
+    }
+    &:hover {
+        color: var(--text-primary);
+    }
 
+    &:not(:last-child) {
+        margin-right: 40px;
+    }
+}
 @media screen and (max-width: 480px) {
     html{
         font-size: 12.8px;
