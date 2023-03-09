@@ -10,10 +10,10 @@ let bodyScroll = document.querySelector('.body');
 window.addEventListener('scroll', function () {
     if (window.scrollY < headerHeight) {
         stickyheader.classList.add('hidden');
-        // header.classList.remove('hidden');
+        header.classList.remove('hidden');
     } else {
         stickyheader.classList.remove('hidden');
-        // header.classList.add('hidden');
+        header.classList.add('hidden');
     }
 
 })
